@@ -113,7 +113,7 @@ const AfterLogin = () => {
                     <HeroH1>Welcome, {user.email}!</HeroH1>
                     <HeroP>Connect your wallet!</HeroP>
                     <HeroBtnWrapper>
-                        <ConnectWallet big primary accentColor="#F213A4" />;
+                        <ConnectWallet big primary accentColor="#F21364" />;
                         
                         <br />
                         <Button big primary onClick={ ()=> checkBalance(sdk, address)} >Get premium</Button>
