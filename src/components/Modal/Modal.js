@@ -13,7 +13,7 @@ export const HasModal = ({ open, onClose }) => {
           <IoClose onClick={onClose} className='close'/>
           <div className='content'>
             <h1>Congratulations!</h1>
-            <p>You've got a subscription. Please, restart mobile app </p>
+            <p>You've got a subscription. Restart mobile app </p>
             <p></p>
           </div>
           <div className='btnContainer'>
