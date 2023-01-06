@@ -1,0 +1,28 @@
+[debug] [2022-11-27T20:47:55.739Z] ----------------------------------------------------------------------
+[debug] [2022-11-27T20:47:55.740Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-11-27T20:47:55.740Z] CLI Version:   11.16.1
+[debug] [2022-11-27T20:47:55.740Z] Platform:      darwin
+[debug] [2022-11-27T20:47:55.741Z] Node Version:  v16.17.1
+[debug] [2022-11-27T20:47:55.741Z] Time:          Mon Nov 28 2022 02:47:55 GMT+0600 (East Kazakhstan Time)
+[debug] [2022-11-27T20:47:55.741Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-27T20:47:55.744Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-27T20:47:55.745Z] > authorizing via signed-in user (expetraorg@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mkhgera/dapp-expetra
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 

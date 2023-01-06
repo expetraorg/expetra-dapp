@@ -1,0 +1,61 @@
+/* *{
+    color: aliceblue;
+} */
+
+.overlay {
+    background-color: rgba(145, 110, 235, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.modalContainer{
+    max-width: 600px;
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: #ffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.modalRight{
+    width: 100%;
+}
+
+.close { 
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 1rem;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
