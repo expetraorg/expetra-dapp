@@ -35,7 +35,7 @@ export const NoModal = ({ open, onClose }) => {
           <IoClose onClick={onClose} className='close'/>
           <div className='content'>
             <h1>Sorry...</h1>
-            <p>Your $ELF token balance is less than 100 $ELF. Please, get more $ELF tokens to unlock premium</p>
+            <p>Your do not own Expetra NFTs. Please, get the NFT to unlock premium</p>
             <p></p>
           </div>
           <div className='btnContainer'>

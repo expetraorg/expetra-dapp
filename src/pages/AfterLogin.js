@@ -116,7 +116,7 @@ const AfterLogin = () => {
                         <ConnectWallet big primary accentColor="#F21364" />;
                         
                         <br />
-                        <Button big primary onClick={ ()=> checkBalance(sdk, address)} >Get premium</Button>
+                        <Button big primary onClick={ ()=> checkBalance(sdk, address)} >get premium</Button>
                         {has ? <HasModal open={isOpen} onClose={() => setIsOpen(false)} /> : <NoModal open={isOpen} onClose={() => setIsOpen(false)} />}
                     </HeroBtnWrapper>
                 </HeroContent>
