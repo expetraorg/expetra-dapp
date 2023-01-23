@@ -6,7 +6,7 @@ export const SubscriptionContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: #0C0C0C;;
 
     @media screen and (max-width: 1100px){
         height: 900px;
@@ -54,7 +54,7 @@ export const SubCard = styled.div`
         transition: all 0.2s ease-in-out;
         cursor: pointer; 
         border: 2px solid #6D42EA;
-        background: #000;
+        background: #0C0C0C;;
     }
 `
 

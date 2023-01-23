@@ -7,12 +7,11 @@ import Home from './pages';
 import { UserAuthContextProvider } from './contexts/AuthContext'
 import AfterLogin from './pages/AfterLogin';
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
+import StakeMainPage from './pages/stakePages';
 const activeChainId = ChainId.BinanceSmartChainTestnet;
 
 function App() {
   return (
-    
-  
       <Router>
         <ThirdwebProvider
                 desiredChainId={activeChainId}>
@@ -22,9 +21,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/signin" element={<SignIn />} />
-            
-                <Route path='/home' element={<AfterLogin />} />
-            
+            <Route path='/home' element={<AfterLogin />} />
+            <Route path='/staking' element={<StakeMainPage/>}/>
           </Routes>
         </UserAuthContextProvider>
         </ThirdwebProvider>

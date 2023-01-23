@@ -35,7 +35,7 @@ const Navbar = () => {
                                 <NavLinks to="/subs">Download</NavLinks>
                             </NavItem> */}
                             <NavItem>
-                                <NavLinks to="/subscription">Subscription</NavLinks>
+                                <NavLinks to="/staking">Staking</NavLinks>
                             </NavItem>
                             {user ? <SignOutBtn/> : <SignInBtn/>}
                         </NavMenu>

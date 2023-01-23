@@ -10,7 +10,7 @@ export const Container = styled.div`
     top: 0;
     z-index: 0;
     overflow: hidden;
-    background-color: #000;
+    background-color: #0C0C0C;;
 
 `
 
@@ -36,7 +36,7 @@ export const FormContent = styled.div`
     }
 `
 export const FormS = styled.form`
-    background: #000;
+    background: #0C0C0C;
     max-width: 400px;
     height: auto;
     width: 100%;

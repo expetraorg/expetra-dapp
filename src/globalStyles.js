@@ -24,7 +24,7 @@ export const Container = styled.div`
 `
 
 export const Button = styled.button`
-    border-radius: 10px;
+    border-radius: 14px;
     background: ${({primary}) => (primary ? 'radial-gradient(91.03% 302.66% at 50.15% 50%, #6D42EA 20.07%, #ABF3FF 100%)' : '#6D42EA')};
     white-space: nowrap;
     padding: 5px 16px;

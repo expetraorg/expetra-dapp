@@ -14,7 +14,7 @@ const Footer = () => {
                         </Logo>                    
                         <SocialIcons>
                             <SocialIconLink href="https://twitter.com/ExpetraOfficial" target="_blank" area-label="Twitter">
-                                <FaTwitter />
+                                <FaTwitter/>
                             </SocialIconLink>
                             <SocialIconLink href="https://t.me/expetraPortal" target="_blank" area-label="Telegram">
                                 <FaTelegram />

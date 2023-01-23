@@ -5,7 +5,7 @@ import { Container } from '../../globalStyles'
 
 
 export const Nav = styled.nav`
-    background: #000;
+    background: #0C0C0C;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -85,7 +85,7 @@ export const NavItem = styled.li`
     }
 `
 
-export const NavLinks = styled(LinkS)`//linkS
+export const NavLinks = styled(LinkR)`//linkS
     color: #fff;
     display: flex;
     align-items: center;
