@@ -1,15 +1,12 @@
 import React from 'react'
 import Footer from '../../components/Footer'
 import { Button } from '../../globalStyles'
-import { Container, Gradient, H1Text, Card, Wrapper, CardHeaderText, CardText, BgWrapper, BgTriangle } from './StakeMainPageElements'
+import { Container, Gradient, H1Text, Card, Wrapper, CardHeaderText, CardText, BgTriangleWrapper} from './StakeMainPageElements'
 
 const StakeMainPage = () => {
     return (
         <>
-            <Container>
-                {/* <BgWrapper>
-                    <BgTriangle/>
-                </BgWrapper> */}
+            <Container> 
                 <H1Text>
                     <Gradient>Expetra </Gradient>
                     - Custom Staking Contract</H1Text>
@@ -25,7 +22,7 @@ const StakeMainPage = () => {
                         <Button medium primary>stake nft</Button>
                     </Card>
                 </Wrapper>
-                <Footer/>
+                <Footer />
             </Container>
         </>
     )

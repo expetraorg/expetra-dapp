@@ -1,0 +1,27 @@
+.bg-container{
+    position: fixed;
+    width: 350px;
+    height: 500px;
+    background: radial-gradient(99.62% 91.64% at 84.7% 84.7%, #6D42EA 0%, #ABF3FF 100%);
+    filter: blur(300px);
+
+}
+
+.ellipse-left{
+    left: 90%;
+    top: 50%;
+    transform: rotate(139.62deg);
+
+}
+
+.ellipse-right{ 
+    top: 50%;
+    transform: rotate(-139.62deg);
+}
+
+.text-header{
+    text-align: left;
+    position: fixed;
+    left: 10%;
+    top: 20%;
+}

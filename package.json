@@ -8,11 +8,15 @@
     "@testing-library/user-event": "^13.5.0",
     "@thirdweb-dev/react": "^3.6.9",
     "@thirdweb-dev/sdk": "^3.6.9",
+    "@web3modal/ethereum": "^2.0.0",
+    "@web3modal/react": "^2.0.0",
     "aelf-bridge": "^0.0.10",
     "aelf-sdk": "^3.2.41",
     "bootstrap": "^5.2.3",
+    "ethers": "^5.7.2",
     "firebase": "^9.14.0",
     "lodash-decorators": "^6.0.1",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
@@ -23,6 +27,7 @@
     "react-scroll": "^1.8.8",
     "react-spring": "^9.5.5",
     "styled-components": "^5.3.6",
+    "wagmi": "^0.10.14",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

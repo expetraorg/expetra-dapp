@@ -7,7 +7,9 @@ import Home from './pages';
 import { UserAuthContextProvider } from './contexts/AuthContext'
 import AfterLogin from './pages/AfterLogin';
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
-import StakeMainPage from './pages/stakePages';
+import StakeMainPage from './pages/StakingMainPage';
+import Example from './pages/Staking';
+import Footer from './components/Footer';
 const activeChainId = ChainId.BinanceSmartChainTestnet;
 
 function App() {
@@ -23,13 +25,11 @@ function App() {
             <Route path="/signin" element={<SignIn />} />
             <Route path='/home' element={<AfterLogin />} />
             <Route path='/staking' element={<StakeMainPage/>}/>
+            <Route path='/switcher' element={<Example/>}/>
           </Routes>
         </UserAuthContextProvider>
         </ThirdwebProvider>
       </Router>
-      
-
-
   );
 }
 
